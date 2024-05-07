@@ -39,11 +39,11 @@
         android:id="@+id/btn_agregar"
         android:layout_width="116dp"
         android:layout_height="65dp"
-        android:layout_marginBottom="180dp"
+        android:layout_marginBottom="332dp"
         android:text="Agregar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -58,5 +58,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvMusica"
+        android:layout_width="409dp"
+        android:layout_height="330dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="400dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
